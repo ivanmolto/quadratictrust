@@ -12,7 +12,13 @@ module.exports = {
       raleway: ["Raleway", "sans-serif"],
       karla: ["Karla", "sans-serif"],
     },
-    extend: {},
+    extend: {
+      colors: {
+        "trust-blue": "#0F00B7",
+        "trust-green": "#218449",
+        "trust-yellow": "#FEC833",
+      },
+    },
   },
   variants: {
     extend: {},
