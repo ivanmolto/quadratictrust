@@ -8,6 +8,10 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    fontFamily: {
+      raleway: ["Raleway", "sans-serif"],
+      karla: ["Karla", "sans-serif"],
+    },
     extend: {},
   },
   variants: {
