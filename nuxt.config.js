@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: "Quadratic Trust",
+    titleTemplate: "%s | Quadratic Trust",
     htmlAttrs: {
       lang: "en",
     },
@@ -26,7 +26,7 @@ export default {
   css: [],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: ["~/plugins/gettrust.server.js"],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
